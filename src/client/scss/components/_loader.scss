@@ -1,0 +1,16 @@
+.LoaderWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  .Loader {
+    font-size: 40px;
+    color: #f37137;
+    top: 45%;
+    position: absolute;
+    left: calc(50% - 20px);
+  }
+}
